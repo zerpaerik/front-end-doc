@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<comprobanteRetencion id="comprobante" version="1.0.0">
+		<infoTributaria>		
+			<ambiente>6</ambiente>		
+			<tipoEmision>1</tipoEmision>
+			<razonSocial>ROSANA GUADALUPE RODRIGUEZ JARAMILLO</razonSocial>
+						<nombreComercial>SAGRADO CORAZON</nombreComercial>
+						<ruc>1712759826001</ruc>
+			<claveAcceso>3010201807171275982600160020010000000290005470317</claveAcceso>
+			<codDoc>07</codDoc>
+			<estab>002</estab>
+			<ptoEmi>001</ptoEmi>
+			<secuencial>000000029</secuencial>
+			<dirMatriz>EPLICACHIMA S9-204 Y JAMBELI</dirMatriz>
+		</infoTributaria>
+		
+		<infoCompRetencion>
+			<fechaEmision>30/10/2018</fechaEmision>
+			<dirEstablecimiento>VILLA FLORA</dirEstablecimiento>
+									<obligadoContabilidad>NO</obligadoContabilidad>
+						<tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+			<razonSocialSujetoRetenido>LUIS ALBERTO AYALA MATUTE</razonSocialSujetoRetenido>
+			<identificacionSujetoRetenido>1706684105001</identificacionSujetoRetenido>
+			<periodoFiscal>08/2018</periodoFiscal>
+		</infoCompRetencion>
+		
+		<impuestos>
+			
+							<impuesto>				
+					<codigo>1</codigo>
+					<codigoRetencion>312</codigoRetencion>
+					<baseImponible>890.12</baseImponible>
+					<porcentajeRetener>1.00</porcentajeRetener>
+					<valorRetenido>8.90</valorRetenido>
+					<codDocSustento>01</codDocSustento>
+					<numDocSustento>001001000004807</numDocSustento>
+					<fechaEmisionDocSustento>30/10/2018</fechaEmisionDocSustento>
+				</impuesto>
+							<impuesto>				
+					<codigo>2</codigo>
+					<codigoRetencion>3</codigoRetencion>
+					<baseImponible>106.81</baseImponible>
+					<porcentajeRetener>100.00</porcentajeRetener>
+					<valorRetenido>106.81</valorRetenido>
+					<codDocSustento>01</codDocSustento>
+					<numDocSustento>001001000004807</numDocSustento>
+					<fechaEmisionDocSustento>30/10/2018</fechaEmisionDocSustento>
+				</impuesto>
+						
+		</impuestos>
+				
+	</comprobanteRetencion>

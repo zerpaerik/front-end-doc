@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>		
+		<ambiente>2</ambiente>		
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>MARIA JESUS RODRIGUEZ</razonSocial>
+		<nombreComercial>TALLER SAN MARTIN</nombreComercial>
+		<ruc>1714147483001</ruc>
+		<claveAcceso>0110201801171414748300120010010000000760002385313</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000076</secuencial>
+		<dirMatriz>CALLE GALTE NO. S9-46 Y RODRIGO DE CHAVEZ</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>01/10/2018</fechaEmision>
+		<dirEstablecimiento>CALLE GALTE NO. S9-46 Y RODRIGO DE CHAVEZ</dirEstablecimiento>
+				<obligadoContabilidad>NO</obligadoContabilidad>
+	
+	
+		<tipoIdentificacionComprador>04</tipoIdentificacionComprador>	
+		<razonSocialComprador>PARROQUIA NUESTRA SEÑORA DE LA ANUNCIACION</razonSocialComprador>
+		<identificacionComprador>1792027659001</identificacionComprador>
+		<direccionComprador>MENA 2</direccionComprador>		
+		<totalSinImpuestos>210</totalSinImpuestos>
+
+		
+
+		<totalDescuento>10.5</totalDescuento>		
+		<totalConImpuestos>
+						
+			<totalImpuesto>				
+				<codigo>2</codigo>
+				<codigoPorcentaje>0</codigoPorcentaje>				
+				<baseImponible>199.50</baseImponible>
+				<valor>0.00</valor>
+			</totalImpuesto>
+						
+		</totalConImpuestos>		
+		<propina>0</propina>
+
+		
+		<importeTotal>199.50</importeTotal>
+		<moneda>DOLAR</moneda>
+				<pagos>
+						<pago>
+				<formaPago>01</formaPago>
+				<total>199.50</total>
+											</pago>
+					</pagos>
+			</infoFactura>
+	<detalles>
+				<detalle>
+			<codigoPrincipal>01039</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>OVEJA CACHORRO VALANDO</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>105.000000</precioUnitario>
+			<descuento>5.00</descuento>
+			<precioTotalSinImpuesto>99.75</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>99.75</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>01022</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>OVEJA CACHORRO COMIENDO</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>105.000000</precioUnitario>
+			<descuento>5.00</descuento>
+			<precioTotalSinImpuesto>99.75</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>99.75</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+			</detalles>
+</factura>

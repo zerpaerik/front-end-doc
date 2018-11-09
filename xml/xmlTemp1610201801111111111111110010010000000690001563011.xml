@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>		
+		<ambiente>1</ambiente>		
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>Adminquantum</razonSocial>
+		<nombreComercial>Quantumadmin</nombreComercial>
+		<ruc>1111111111111</ruc>
+		<claveAcceso>1610201801111111111111110010010000000690001563011</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000069</secuencial>
+		<dirMatriz>ecuador</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>16/10/2018</fechaEmision>
+		<dirEstablecimiento>Aime Bondpland y Queseras del medio</dirEstablecimiento>
+				<obligadoContabilidad>NO</obligadoContabilidad>
+	
+	
+		<tipoIdentificacionComprador>04</tipoIdentificacionComprador>	
+		<razonSocialComprador>DESOLTECH</razonSocialComprador>
+		<identificacionComprador>0804724672001</identificacionComprador>
+		<direccionComprador>AV. DE DESOLTECH</direccionComprador>		
+		<totalSinImpuestos>1200</totalSinImpuestos>
+
+		
+
+		<totalDescuento>0</totalDescuento>		
+		<totalConImpuestos>
+						
+			<totalImpuesto>				
+				<codigo>2</codigo>
+				<codigoPorcentaje>2</codigoPorcentaje>				
+				<baseImponible>1200.00</baseImponible>
+				<valor>144.00</valor>
+			</totalImpuesto>
+						
+		</totalConImpuestos>		
+		<propina>0</propina>
+
+		
+		<importeTotal>1464.00</importeTotal>
+		<moneda>DOLAR</moneda>
+				<pagos>
+						<pago>
+				<formaPago>15</formaPago>
+				<total>1344.00</total>
+											</pago>
+					</pagos>
+			</infoFactura>
+	<detalles>
+				<detalle>
+			<codigoPrincipal>0001</codigoPrincipal>
+						<codigoAuxiliar>0001</codigoAuxiliar>
+						<descripcion>Guantes</descripcion>
+			<cantidad>12.000000</cantidad>
+			<precioUnitario>100.000000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>1200</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>2</codigoPorcentaje>
+					<tarifa>12.00</tarifa>
+					<baseImponible>1200</baseImponible>
+					<valor>144</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+			</detalles>
+</factura>

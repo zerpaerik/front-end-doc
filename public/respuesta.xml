@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:respuestaSolicitud xmlns:ns2="http://ec.gob.sri.ws.recepcion">
+    <estado>DEVUELTA</estado>
+    <comprobantes>
+        <comprobante>
+            <claveAcceso>2610201807171275952900120010010000001610005052518</claveAcceso>
+            <mensajes>
+                <mensaje>
+                    <identificador>45</identificador>
+                    <mensaje>ERROR SECUENCIAL REGISTRADO</mensaje>
+                    <tipo>ERROR</tipo>
+                </mensaje>
+            </mensajes>
+        </comprobante>
+    </comprobantes>
+</ns2:respuestaSolicitud>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<comprobanteRetencion id="comprobante" version="1.0.0">
+		<infoTributaria>		
+			<ambiente>2</ambiente>		
+			<tipoEmision>1</tipoEmision>
+			<razonSocial>ROSANA GUADALUPE RODRIGUEZ JARAMILLO</razonSocial>
+						<nombreComercial>SAGRADO CORAZON</nombreComercial>
+						<ruc>1712759826001</ruc>
+			<claveAcceso>1610201807171275982600120020010000000260003005413</claveAcceso>
+			<codDoc>07</codDoc>
+			<estab>002</estab>
+			<ptoEmi>001</ptoEmi>
+			<secuencial>000000026</secuencial>
+			<dirMatriz>EPLICACHIMA S9-204 Y JAMBELI</dirMatriz>
+		</infoTributaria>
+		
+		<infoCompRetencion>
+			<fechaEmision>16/10/2018</fechaEmision>
+			<dirEstablecimiento>VILLA FLORA</dirEstablecimiento>
+									<obligadoContabilidad>NO</obligadoContabilidad>
+						<tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+			<razonSocialSujetoRetenido>PINTURAS AMERICA PINTAMER S.A.</razonSocialSujetoRetenido>
+			<identificacionSujetoRetenido>1791344316001</identificacionSujetoRetenido>
+			<periodoFiscal>07/2018</periodoFiscal>
+		</infoCompRetencion>
+		
+		<impuestos>
+			
+							<impuesto>				
+					<codigo>1</codigo>
+					<codigoRetencion>312</codigoRetencion>
+					<baseImponible>1022.42</baseImponible>
+					<porcentajeRetener>1.00</porcentajeRetener>
+					<valorRetenido>10.22</valorRetenido>
+					<codDocSustento>01</codDocSustento>
+					<numDocSustento>001001000075406</numDocSustento>
+					<fechaEmisionDocSustento>16/10/2018</fechaEmisionDocSustento>
+				</impuesto>
+							<impuesto>				
+					<codigo>2</codigo>
+					<codigoRetencion>3</codigoRetencion>
+					<baseImponible>122.68</baseImponible>
+					<porcentajeRetener>100.00</porcentajeRetener>
+					<valorRetenido>122.68</valorRetenido>
+					<codDocSustento>01</codDocSustento>
+					<numDocSustento>001001000075406</numDocSustento>
+					<fechaEmisionDocSustento>16/10/2018</fechaEmisionDocSustento>
+				</impuesto>
+						
+		</impuestos>
+				
+	</comprobanteRetencion>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>		
+		<ambiente>2</ambiente>		
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>MARIA JESUS RODRIGUEZ</razonSocial>
+		<nombreComercial>TALLER SAN MARTIN</nombreComercial>
+		<ruc>1714147483001</ruc>
+		<claveAcceso>2510201801171414748300120010010000000930007171115</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000093</secuencial>
+		<dirMatriz>CALLE GALTE NO. S9-46 Y RODRIGO DE CHAVEZ</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>25/10/2018</fechaEmision>
+		<dirEstablecimiento>CALLE GALTE NO. S9-46 Y RODRIGO DE CHAVEZ</dirEstablecimiento>
+				<obligadoContabilidad>NO</obligadoContabilidad>
+	
+	
+		<tipoIdentificacionComprador>04</tipoIdentificacionComprador>	
+		<razonSocialComprador>DINA IZA</razonSocialComprador>
+		<identificacionComprador>1709904237001</identificacionComprador>
+		<direccionComprador>QUITUMBE</direccionComprador>		
+		<totalSinImpuestos>147.2</totalSinImpuestos>
+
+		
+
+		<totalDescuento>0</totalDescuento>		
+		<totalConImpuestos>
+						
+			<totalImpuesto>				
+				<codigo>2</codigo>
+				<codigoPorcentaje>0</codigoPorcentaje>				
+				<baseImponible>147.20</baseImponible>
+				<valor>0.00</valor>
+			</totalImpuesto>
+						
+		</totalConImpuestos>		
+		<propina>0</propina>
+
+		
+		<importeTotal>147.20</importeTotal>
+		<moneda>DOLAR</moneda>
+				<pagos>
+						<pago>
+				<formaPago>01</formaPago>
+				<total>147.20</total>
+											</pago>
+					</pagos>
+			</infoFactura>
+	<detalles>
+				<detalle>
+			<codigoPrincipal>S0001</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>QUERUBIN  9CMS</descripcion>
+			<cantidad>12.000000</cantidad>
+			<precioUnitario>9.500000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>114</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>114</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>05709</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>QUERUBIN 16CMS</descripcion>
+			<cantidad>2.000000</cantidad>
+			<precioUnitario>16.600000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>33.2</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>33.2</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+			</detalles>
+</factura>

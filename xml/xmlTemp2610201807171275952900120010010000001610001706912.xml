@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<comprobanteRetencion id="comprobante" version="1.0.0">
+		<infoTributaria>		
+			<ambiente>2</ambiente>		
+			<tipoEmision>1</tipoEmision>
+			<razonSocial>RODRIGUEZ JARAMILLO MAYTE VORANKA</razonSocial>
+						<nombreComercial>LA CASA DE LOS ANGELES</nombreComercial>
+						<ruc>1712759529001</ruc>
+			<claveAcceso>2610201807171275952900120010010000001610001706912</claveAcceso>
+			<codDoc>07</codDoc>
+			<estab>001</estab>
+			<ptoEmi>001</ptoEmi>
+			<secuencial>000000161</secuencial>
+			<dirMatriz>CALLE GALTE  S9-42, PICHINCHA QUITO</dirMatriz>
+		</infoTributaria>
+		
+		<infoCompRetencion>
+			<fechaEmision>26/10/2018</fechaEmision>
+			<dirEstablecimiento>CALLE GALTE NO. S9-42, PICHINCHA QUITO</dirEstablecimiento>
+									<obligadoContabilidad>NO</obligadoContabilidad>
+						<tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+			<razonSocialSujetoRetenido>FIBRAS Y COMPUESTOS POSTANFI S.A.</razonSocialSujetoRetenido>
+			<identificacionSujetoRetenido>0992735023001</identificacionSujetoRetenido>
+			<periodoFiscal>08/2018</periodoFiscal>
+		</infoCompRetencion>
+		
+		<impuestos>
+			
+							<impuesto>				
+					<codigo>1</codigo>
+					<codigoRetencion>312</codigoRetencion>
+					<baseImponible>1526.00</baseImponible>
+					<porcentajeRetener>1.00</porcentajeRetener>
+					<valorRetenido>15.26</valorRetenido>
+					<codDocSustento>01</codDocSustento>
+					<numDocSustento>003003000000376</numDocSustento>
+					<fechaEmisionDocSustento>22/10/2018</fechaEmisionDocSustento>
+				</impuesto>
+						
+		</impuestos>
+				
+	</comprobanteRetencion>

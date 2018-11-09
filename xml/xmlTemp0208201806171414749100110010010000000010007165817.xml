@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<guiaRemision id="comprobante" version="1.0.0">
+	<infoTributaria>		
+		<ambiente>1</ambiente>		
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>JARAMILLO FERRIN MARIA EUGENIA</razonSocial>
+				<nombreComercial>GUAN YIN ART SUPPLIES</nombreComercial>
+				<ruc>1714147491001</ruc>
+		<claveAcceso>0208201806171414749100110010010000000010007165817</claveAcceso>
+		<codDoc>06</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000001</secuencial>
+		<dirMatriz>Ecuador</dirMatriz>
+	</infoTributaria>	
+	
+	<infoGuiaRemision>
+		<dirEstablecimiento>PICHINCHA / QUITO / LA MAGDALENA / GALTE S9-46 Y RODRIGO DE CHAVEZ</dirEstablecimiento>
+		<dirPartida>A</dirPartida>
+		<razonSocialTransportista>Transporte A</razonSocialTransportista>
+		<tipoIdentificacionTransportista>04</tipoIdentificacionTransportista>
+		<rucTransportista>1234567890124</rucTransportista>
+		<rise>Contribuyente Regimen Simplificado RISE</rise>
+					<obligadoContabilidad>NO</obligadoContabilidad>
+				
+				
+		<fechaIniTransporte>01/08/2018</fechaIniTransporte>
+		<fechaFinTransporte>01/08/2018</fechaFinTransporte>
+		<placa>asdfff</placa>
+	</infoGuiaRemision>
+
+	<destinatarios>
+		<destinatario>
+			<identificacionDestinatario>0391898201</identificacionDestinatario>
+			<razonSocialDestinatario>INSPIRED ARTISANS LTD</razonSocialDestinatario>
+			<dirDestinatario>815 W NATIONAL AV MILWAUKEE M-USA</dirDestinatario>
+			<motivoTraslado>PERRYSBURG</motivoTraslado>
+			<docAduaneroUnico>asd</docAduaneroUnico>
+			<codEstabDestino>1</codEstabDestino>
+			<ruta>1773 Crossfields Rd</ruta>
+			<codDocSustento>01</codDocSustento>
+			<numDocSustento>001-001-000001123</numDocSustento>
+			<numAutDocSustento>0307201801171414749100110010010000011230000415018</numAutDocSustento>
+			<fechaEmisionDocSustento>03/07/2018</fechaEmisionDocSustento>			
+			<detalles>
+									<detalle>
+						<codigoInterno>m001</codigoInterno>
+						<codigoAdicional>m001j</codigoAdicional>
+						<descripcion>Oso de peluche</descripcion>
+						<cantidad>20.000000</cantidad>										
+					</detalle>
+							</detalles>
+		</destinatario>
+	</destinatarios>
+</guiaRemision>

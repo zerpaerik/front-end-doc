@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><autorizacion>
+  <estado>NO AUTORIZADO</estado>
+  <fechaAutorizacion class="fechaAutorizacion">01/10/2018 15:24:59.000</fechaAutorizacion>
+  <comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0">
+	<infoTributaria>		
+		<ambiente>2</ambiente>		
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>MARIA JESUS RODRIGUEZ</razonSocial>
+		<nombreComercial>TALLER SAN MARTIN</nombreComercial>
+		<ruc>1714147483001</ruc>
+		<claveAcceso>0110201801171414748300120010010000000760002385313</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000076</secuencial>
+		<dirMatriz>CALLE GALTE NO. S9-46 Y RODRIGO DE CHAVEZ</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>01/10/2018</fechaEmision>
+		<dirEstablecimiento>CALLE GALTE NO. S9-46 Y RODRIGO DE CHAVEZ</dirEstablecimiento>
+				<obligadoContabilidad>NO</obligadoContabilidad>
+	
+	
+		<tipoIdentificacionComprador>04</tipoIdentificacionComprador>	
+		<razonSocialComprador>PARROQUIA NUESTRA SEÑORA DE LA ANUNCIACION</razonSocialComprador>
+		<identificacionComprador>1792027659001</identificacionComprador>
+		<direccionComprador>MENA 2</direccionComprador>		
+		<totalSinImpuestos>210</totalSinImpuestos>
+
+		
+
+		<totalDescuento>10.5</totalDescuento>		
+		<totalConImpuestos>
+						
+			<totalImpuesto>				
+				<codigo>2</codigo>
+				<codigoPorcentaje>0</codigoPorcentaje>				
+				<baseImponible>199.50</baseImponible>
+				<valor>0.00</valor>
+			</totalImpuesto>
+						
+		</totalConImpuestos>		
+		<propina>0</propina>
+
+		
+		<importeTotal>199.50</importeTotal>
+		<moneda>DOLAR</moneda>
+				<pagos>
+						<pago>
+				<formaPago>01</formaPago>
+				<total>199.50</total>
+											</pago>
+					</pagos>
+			</infoFactura>
+	<detalles>
+				<detalle>
+			<codigoPrincipal>01039</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>OVEJA CACHORRO VALANDO</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>105.000000</precioUnitario>
+			<descuento>5.00</descuento>
+			<precioTotalSinImpuesto>99.75</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>99.75</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>01022</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>OVEJA CACHORRO COMIENDO</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>105.000000</precioUnitario>
+			<descuento>5.00</descuento>
+			<precioTotalSinImpuesto>99.75</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>99.75</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+			</detalles>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature156017">
+<ds:SignedInfo Id="Signature-SignedInfo123320">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID602517" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature156017-SignedProperties362068">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>ZGIam3OpLJRbuivrxwV6+Wu6E2s=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate165701">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>7u47+ELtEGCOT42UYPZBusre9tU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-908585" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>Mbs28Ah9w9a/n8TvEe+kyYpoPfM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue1022815">
+UxNGqE7/AEvFd+7+JuOHmXb3NQiHxlfqxX+hLEJwS18tvS4PB74fOCTMq3SMLlV8eLC2UZlJ3HYa
+Tk80OWDv2Jom0uRK1QAXEsTo9vlSITUVVziok+fkIJXKT462ymdpgNIm3W4zvuZbjf2FW8oxSfTS
+xsCBzhaTcqImCr/BtJjzG0s+HWfSNOE5JR8DSCMN7TYoKVPJ9laUy/b0HfMbEMO/3brPRTUpFnau
+htfAgJ+IJ8FCAC+uC9E6wdU4m2DqQA3FiaKQMJ6l08jt06oJjw1RmdczCQ2CZEXquHlRKSXAkBnp
+uSXBye2UzCjSlLlizBgLVUv8YhptSyJFJagFBw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate165701">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJqTCCB5GgAwIBAgIEWlv7IDANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE4MDYwMTE1MzM1MVoXDTIwMDYwMTE2MDM1
+MVowgbcxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE7MBEGA1UEBRMKMDAwMDI4NTE1ODAmBgNVBAMTH01BUklBIEpFU1VTIFJP
+RFJJR1VFWiBKQVJBTUlMTE8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDEfNJLqXQq
+qpEZpFUdVEH9whynVPVRKluZwhapIfC4Fs/bEO9RQW9fVBLNGjBk3X290zrhzvK42i/QsQ7eW7HC
+JYfCOGy4k3eXzWC+Sgr1AD0vZ9fS9/Zjo1OlBc8hZSeig2YJIOFRkM1nv/1+cWGoc3NemKgpjlrH
+E199VzgYN6PLBgvX1dBEhm9/JVbzEfFx371XPOptBRmqR4iW99PPF2l4HpHZMnnvuJ8OnnOp+Cmb
+5kmuATlAdpwYCNiXjUFZiOEdHBuTsWKtCZhorafHgR6nAm1J1ATBcTOVz3PCNHLzFPmAiVxVOzAb
+ffiYRJJltY+jdspNNN8uVe+vUBzJAgMBAAGjggTPMIIEyzALBgNVHQ8EBAMCB4AwZgYDVR0gBF8w
+XTBbBgsrBgEEAYKoOwIBATBMMEoGCCsGAQUFBwIBFj5odHRwOi8vd3d3LmVjaS5iY2UuZWMvcG9s
+aXRpY2EtY2VydGlmaWNhZG8vcGVyc29uYS1uYXR1cmFsLnBkZjCBkQYIKwYBBQUHAQEEgYQwgYEw
+PgYIKwYBBQUHMAGGMmh0dHA6Ly9vY3NwLmVjaS5iY2UuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1
+cy9vY3NwMD8GCCsGAQUFBzABhjNodHRwOi8vb2NzcDEuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3
+ZWIvc3RhdHVzL29jc3AwGgYKKwYBBAGCqDsDAQQMEwoxNzE0MTQ3NDgzMBsGCisGAQQBgqg7AwIE
+DRMLTUFSSUEgSkVTVVMwGQYKKwYBBAGCqDsDAwQLEwlST0RSSUdVRVowGQYKKwYBBAGCqDsDBAQL
+EwlKQVJBTUlMTE8wLgYKKwYBBAGCqDsDBwQgEx5HQUxURSBTOTQ2IFkgUk9EUklHTyBERSBDSEFW
+RVowGQYKKwYBBAGCqDsDCAQLEwkwMjI2NTc5MjIwFQYKKwYBBAGCqDsDCQQHEwVRdWl0bzAXBgor
+BgEEAYKoOwMMBAkTB0VDVUFET1IwHQYKKwYBBAGCqDsDCwQPEw0xNzE0MTQ3NDgzMDAxMCAGCisG
+AQQBgqg7AzMEEhMQU09GVFdBUkUtQVJDSElWTzAfBgNVHREEGDAWgRRzaGFueXJvZEBob3RtYWls
+LmNvbTCCAd8GA1UdHwSCAdYwggHSMIIBzqCCAcqgggHGhoHVbGRhcDovL2JjZXFsZGFwc3VicDEu
+YmNlLmVjL2NuPUNSTDU2OSxjbj1BQyUyMEJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFET1Is
+bD1RVUlUTyxvdT1FTlRJREFEJTIwREUlMjBDRVJUSUZJQ0FDSU9OJTIwREUlMjBJTkZPUk1BQ0lP
+Ti1FQ0lCQ0Usbz1CQU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VBRE9SLGM9RUM/Y2VydGlmaWNh
+dGVSZXZvY2F0aW9uTGlzdD9iYXNlhjRodHRwOi8vd3d3LmVjaS5iY2UuZWMvQ1JML2VjaV9iY2Vf
+ZWNfY3JsZmlsZWNvbWIuY3JspIG1MIGyMQswCQYDVQQGEwJFQzEiMCAGA1UEChMZQkFOQ08gQ0VO
+VFJBTCBERUwgRUNVQURPUjE3MDUGA1UECxMuRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElO
+Rk9STUFDSU9OLUVDSUJDRTEOMAwGA1UEBxMFUVVJVE8xJTAjBgNVBAMTHEFDIEJBTkNPIENFTlRS
+QUwgREVMIEVDVUFET1IxDzANBgNVBAMTBkNSTDU2OTArBgNVHRAEJDAigA8yMDE4MDYwMTE1MzM1
+MVqBDzIwMjAwNjAxMTYwMzUxWjAfBgNVHSMEGDAWgBQY+fD75jIcmWY5KsqLsml9SSe/zjAdBgNV
+HQ4EFgQUBMghhs4HQbykwqo3z/m1UIG1pB4wCQYDVR0TBAIwADAZBgkqhkiG9n0HQQAEDDAKGwRW
+OC4xAwIEsDANBgkqhkiG9w0BAQsFAAOCAgEAGMkBLA7ZWKSKipxDukgsH1NN7NxAF3i80KDPL4WX
+WwG6mCVZsi/GvghPgENys+ol/iQnTVato1OnsLklRE9xpJ8j+rcWc4Rgb5keCShvQ+b78juXWCRe
+sLNp7lg8ThTj2zirD9pm1GpA73E5hCOKVecvKs9yaC2YmDeYPn5/Zwree11DfEYeBD/Euj0llnmG
+adI7TtxeNX6aS+2nsfUb59blNA4zITS0DO3tlKj6EooycfWcWu35mIuu8ekSZu94S6LS5M+lxkGi
+54QrO1QCvkFCZePbcWWLCHbgmPTVitraRFH8B+BSfQIBguraP29NWVIdIlIzyCSjw7TbWNmIYRuQ
++zouXK6Iq5lRqVUHm1XOhgkBmcQwntHIEYVE5GafhyVbXZC8Yz84sxgZjwTQH0QShNiM+c4QKteZ
+GC69cA+0ub+FFvwJP1WNK24IuG3Fpgs+FuHPAqIhz72GlsZFZ7ZyiKIg3CwjAAy12aIJl0O1m+xO
+ECUzoqOPABCEkKXhMLijO6JRkv2s1TQqtY71ABiTUqiSJJ30TAc/9NZJkdcRNnW9jcNBaTxUCBij
+ysKcZXXXSmim3f9agc4KYqwNkqiGjz+As3wwjdIJzQ27nujC8ZyDbx3ERLOHTa+QJAf9tZLPqDds
+jUdPPREM7lIeKKo3BK8Pw2mddQNCu5vmHSQ=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xHzSS6l0KqqRGaRVHVRB/cIcp1T1USpbmcIWqSHwuBbP2xDvUUFvX1QSzRowZN19vdM64c7yuNov
+0LEO3luxwiWHwjhsuJN3l81gvkoK9QA9L2fX0vf2Y6NTpQXPIWUnooNmCSDhUZDNZ7/9fnFhqHNz
+XpioKY5axxNffVc4GDejywYL19XQRIZvfyVW8xHxcd+9VzzqbQUZqkeIlvfTzxdpeB6R2TJ577if
+Dp5zqfgpm+ZJrgE5QHacGAjYl41BWYjhHRwbk7FirQmYaK2nx4EepwJtSdQEwXEzlc9zwjRy8xT5
+gIlcVTswG334mESSZbWPo3bKTTTfLlXvr1AcyQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature156017-Object4497"><etsi:QualifyingProperties Target="#Signature156017"><etsi:SignedProperties Id="Signature156017-SignedProperties362068"><etsi:SignedSignatureProperties><etsi:SigningTime>2018-10-01T15:24:50-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>56LXyBI9AcatqkSCvgAfNURJAzo=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1515977504</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-908585"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+  <mensajes>
+    <mensaje>
+      <mensaje>
+        <identificador>52</identificador>
+        <mensaje>ERROR EN DIFERENCIAS</mensaje>
+        <informacionAdicional>
+
+--- Inventario de errores ---
+
+- Factura:
+	El importe total esperado 199.5 no coincide con el calculado 210.0: total sin impuestos 210.0 - total descuento adicional 0.0 - total devolucion iva 0.0 - total compensaciones 0.0 + total impuestos 0.0 + propina 0.0 + total retenciones 0.0 + totalExportaciones 0.0 + total rubros terceros 0.0
+	El total sin impuestos de la factura 210.0 no es igual a la suma de los totales sin impuestos de los detalles 199.5</informacionAdicional>
+        <tipo>ERROR</tipo>
+      </mensaje>
+    </mensaje>
+  </mensajes>
+</autorizacion>

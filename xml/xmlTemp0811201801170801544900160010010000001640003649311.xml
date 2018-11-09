@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>		
+		<ambiente>6</ambiente>		
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>ALMEIDA RIVAS RENATO FABRICIO</razonSocial>
+		<nombreComercial>SANTO GIUSEPPE ESCULTURE</nombreComercial>
+		<ruc>1708015449001</ruc>
+		<claveAcceso>0811201801170801544900160010010000001640003649311</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000164</secuencial>
+		<dirMatriz>CALLE AV. 5 DE JUNIO NO. S9-204, PICHINCHA QUITO</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>08/11/2018</fechaEmision>
+		<dirEstablecimiento>CALLE AV. 5 DE JUNIO NO. S9-204, PICHINCHA QUITO</dirEstablecimiento>
+				<obligadoContabilidad>NO</obligadoContabilidad>
+	
+	
+		<tipoIdentificacionComprador>04</tipoIdentificacionComprador>	
+		<razonSocialComprador>ORODELTI S.A.</razonSocialComprador>
+		<identificacionComprador>0992129824001</identificacionComprador>
+		<direccionComprador>KM 1.5 VIA SANBORONDON, EDF. XIMA, PISO 5, OFC. 509</direccionComprador>		
+		<totalSinImpuestos>2100</totalSinImpuestos>
+
+		
+
+		<totalDescuento>0</totalDescuento>		
+		<totalConImpuestos>
+						
+			<totalImpuesto>				
+				<codigo>2</codigo>
+				<codigoPorcentaje>77</codigoPorcentaje>				
+				<baseImponible>2100.00</baseImponible>
+				<valor>0.00</valor>
+			</totalImpuesto>
+						
+		</totalConImpuestos>		
+		<propina>0</propina>
+
+		
+		<importeTotal>2100.00</importeTotal>
+		<moneda>DOLAR</moneda>
+				<pagos>
+						<pago>
+				<formaPago>01</formaPago>
+				<total>2100.00</total>
+											</pago>
+					</pagos>
+			</infoFactura>
+	<detalles>
+				<detalle>
+			<codigoPrincipal>11274</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>CRISTO 120CM CRUZ DE MADERA 240CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>683.200000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>683.2</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>683.2</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>03545</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>VIRGEN MEDALLA MILAGROSA (INMACULADA) 128CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>540.000000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>540</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>540</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>15852</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>SAN JOSE CON LIRIO 120CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>565.000000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>565</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>565</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>17153</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>PASTOR VIEJO ARRODILLADO 40CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>40.500000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>40.5</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>40.5</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>17139</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>PASTOR OVEJA Y PERRO 40CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>40.500000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>40.5</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>40.5</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>17160</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>PASTOR PESCADOR 40CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>40.500000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>40.5</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>40.5</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>17177</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>PASTORA CON CANASTA DE HUEVOS 40CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>40.500000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>40.5</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>40.5</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>17184</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>PASTORA CON CANTARO 40CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>40.500000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>40.5</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>40.5</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>17238</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>CARNERO 40CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>9.450000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>9.45</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>9.45</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>17221</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>BORREGO SENTADO 40CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>9.450000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>9.45</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>9.45</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>17245</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>JUEGO DE CERDOS (7) 40CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>33.500000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>33.5</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>33.5</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>02371</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>OVEJA ECHADA VALANDO 65CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>28.450000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>28.45</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>28.45</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+				<detalle>
+			<codigoPrincipal>02340</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>OVEJA ECHADA 65CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>28.450000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>28.45</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>28.45</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+			</detalles>
+</factura>

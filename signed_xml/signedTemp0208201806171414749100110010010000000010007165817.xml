@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><guiaRemision id="comprobante" version="1.0.0">
+	<infoTributaria>		
+		<ambiente>1</ambiente>		
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>JARAMILLO FERRIN MARIA EUGENIA</razonSocial>
+				<nombreComercial>GUAN YIN ART SUPPLIES</nombreComercial>
+				<ruc>1714147491001</ruc>
+		<claveAcceso>0208201806171414749100110010010000000010007165817</claveAcceso>
+		<codDoc>06</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000001</secuencial>
+		<dirMatriz>Ecuador</dirMatriz>
+	</infoTributaria>	
+	
+	<infoGuiaRemision>
+		<dirEstablecimiento>PICHINCHA / QUITO / LA MAGDALENA / GALTE S9-46 Y RODRIGO DE CHAVEZ</dirEstablecimiento>
+		<dirPartida>A</dirPartida>
+		<razonSocialTransportista>Transporte A</razonSocialTransportista>
+		<tipoIdentificacionTransportista>04</tipoIdentificacionTransportista>
+		<rucTransportista>1234567890124</rucTransportista>
+		<rise>Contribuyente Regimen Simplificado RISE</rise>
+					<obligadoContabilidad>NO</obligadoContabilidad>
+				
+				
+		<fechaIniTransporte>01/08/2018</fechaIniTransporte>
+		<fechaFinTransporte>01/08/2018</fechaFinTransporte>
+		<placa>asdfff</placa>
+	</infoGuiaRemision>
+
+	<destinatarios>
+		<destinatario>
+			<identificacionDestinatario>0391898201</identificacionDestinatario>
+			<razonSocialDestinatario>INSPIRED ARTISANS LTD</razonSocialDestinatario>
+			<dirDestinatario>815 W NATIONAL AV MILWAUKEE M-USA</dirDestinatario>
+			<motivoTraslado>PERRYSBURG</motivoTraslado>
+			<docAduaneroUnico>asd</docAduaneroUnico>
+			<codEstabDestino>1</codEstabDestino>
+			<ruta>1773 Crossfields Rd</ruta>
+			<codDocSustento>01</codDocSustento>
+			<numDocSustento>001-001-000001123</numDocSustento>
+			<numAutDocSustento>0307201801171414749100110010010000011230000415018</numAutDocSustento>
+			<fechaEmisionDocSustento>03/07/2018</fechaEmisionDocSustento>			
+			<detalles>
+									<detalle>
+						<codigoInterno>m001</codigoInterno>
+						<codigoAdicional>m001j</codigoAdicional>
+						<descripcion>Oso de peluche</descripcion>
+						<cantidad>20.000000</cantidad>										
+					</detalle>
+							</detalles>
+		</destinatario>
+	</destinatarios>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature210903">
+<ds:SignedInfo Id="Signature-SignedInfo232316">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID860115" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature210903-SignedProperties730821">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>xM0yuCVcP4MSmXeOXOJHcHu40ro=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1361808">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>PBvdKUgCVad5BJ8xk0UTFLTxOqk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-968928" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>jb5J3G4H0r0g7mZA9cAgeQnGZE4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue890883">
+m9iHhUl3qlRJqgsJagwpAX7wXQ6rU2SxWlCMBlDnRUUejBYful9sCL4vlULw4QWjfgWJ9+ZIsmXk
+gjvJFwBW7/0HtP3deghrToV+U+tnVfT70DgnyEShzMIdG+Cf7yDv+8EboKgxcuozof2nMFr65VPd
+XEp/GReQ5oCqTeTh8ZLC0oWkt2kLmTWL9zLOYfJdwUVZioFcm7ffPs05ygdvrWTWZqPr4oXeZiq5
+xFSvef+8yMUNcT31b+NXCtpvSBM+2zpCaWZGY52JMx7V9kc2tA7oZdc+B3C0t9FXCO0qJcqqoYr6
+4tBXMO/Vo+ZXYHnQah/PAxu0L7gzla8bh4G/Gw==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1361808">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJVjCCCD6gAwIBAgIEVM+eAzANBgkqhkiG9w0BAQsFADCBkzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoTElNFQ1VSSVRZIERBVEEgUy5BLjEwMC4GA1UECxMnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9O
+IERFIElORk9STUFDSU9OMTUwMwYDVQQDEyxBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUIg
+U0VDVVJJVFkgREFUQTAeFw0xNzEwMTExNDI4MDJaFw0yMzEwMTExNDU4MDJaMIGaMQswCQYDVQQG
+EwJFQzEbMBkGA1UEChMSU0VDVVJJVFkgREFUQSBTLkEuMTAwLgYDVQQLEydFTlRJREFEIERFIENF
+UlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xPDATBgNVBAUTDDEwMTAxNzExNDgzNzAlBgNVBAMT
+Hk1BUklBIEVVR0VOSUEgSkFSQU1JTExPIEZFUlJJTjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAKmjEufWCD51YcHpoREOV2W49PTIUsg6zeMJ7DDbItRxg/RQCwNa2OaGjDLMMXG5wG1Q
+aKdab0zgrcyaGVt/4lO5JvblMkAqhBmiFFRBRYYF4v28FiIMKXTZyG7aeZaPWQsgkKxXJr9Qsg2W
+GCWQ/o45/d7uTog/BsjidI1Ydx3JMd2vqigaX5AaK85hgkuSAChReQ2ga+RPMscX0aoL/cijaQOk
+kxYgDiV+7b+BHaopizFVz3wc+LwIV3YRmUcBPuCfpMB/zeB8dihNkHf24CEW3WVnn4UsFWb1n8Ev
+CJ6/y4L7VsOViQO0vGUAqm7m27kTYGKm+Z1vtZZicEgn2B8CAwEAAaOCBacwggWjMAsGA1UdDwQE
+AwIF4DBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlk
+YXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwgcQGA1UdIASBvDCBuTA8Bgor
+BgEEAYKmcgIHMC4wLAYIKwYBBQUHAgIwIBoeQ2VydGlmaWNhZG8gZGUgUGVyc29uYSBOYXR1cmFs
+MHkGCisGAQQBgqZyAgEwazBpBggrBgEFBQcCARZdaHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5l
+dC5lYy9sZXllc19ub3JtYXRpdmFzL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBQZXJzb25hIE5h
+dHVyYWwucGRmMBoGCisGAQQBgqZyAwEEDBMKMTcxNDE0NzQ5MTAdBgorBgEEAYKmcgMCBA8TDU1B
+UklBIEVVR0VOSUEwGQYKKwYBBAGCpnIDAwQLEwlKQVJBTUlMTE8wFgYKKwYBBAGCpnIDBAQIEwZG
+RVJSSU4wLwYKKwYBBAGCpnIDBwQhEx9HQUxURSBTOS00NiBZIFJPRFJJR08gREUgQ0hBVkVaMBsG
+CisGAQQBgqZyAwgEDRMLNTkzMjI2NjM5MDEwFQYKKwYBBAGCpnIDCQQHEwVRVUlUTzAXBgorBgEE
+AYKmcgMMBAkTB0VDVUFET1IwHQYKKwYBBAGCpnIDCwQPEw0xNzE0MTQ3NDkxMDAxMB8GCisGAQQB
+gqZyAyAEERMPMDAyMDAxMDAwMDE4MjMwMBMGCisGAQQBgqZyAyEEBRMDUEZYMB8GA1UdEQQYMBaB
+FGV1Z2VqYXJhQGhvdG1haWwuY29tMIICewYDVR0fBIICcjCCAm4wggJqoIICZqCCAmKGPWh0dHA6
+Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3CG
+gdVsZGFwOi8vZGlyZWN0LnNlY3VyaXR5ZGF0YS5uZXQuZWMvY249Q1JMMTMwLGNuPUFVVE9SSURB
+RCUyMERFJTIwQ0VSVElGSUNBQ0lPTiUyMFNVQiUyMFNFQ1VSSVRZJTIwREFUQSxvdT1FTlRJREFE
+JTIwREUlMjBDRVJUSUZJQ0FDSU9OJTIwREUlMjBJTkZPUk1BQ0lPTixvPVNFQ1VSSVRZJTIwREFU
+QSUyMFMuQS4sYz1FQz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2WGgZ5odHRwczovL2Rp
+cmVjdC5zZWN1cml0eWRhdGEubmV0LmVjL35jcmwvYXV0b3JpZGFkX2RlX2NlcnRpZmljYWNpb25f
+c3ViX3NlY3VyaXR5X2RhdGFfZW50aWRhZF9kZV9jZXJ0aWZpY2FjaW9uX2RlX2luZm9ybWFjaW9u
+X2N1cml0eV9kYXRhX3MuYS5fY19lY19jcmxmaWxlLmNybKSBpzCBpDELMAkGA1UEBhMCRUMxGzAZ
+BgNVBAoTElNFQ1VSSVRZIERBVEEgUy5BLjEwMC4GA1UECxMnRU5USURBRCBERSBDRVJUSUZJQ0FD
+SU9OIERFIElORk9STUFDSU9OMTUwMwYDVQQDEyxBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBT
+VUIgU0VDVVJJVFkgREFUQTEPMA0GA1UEAxMGQ1JMMTMwMCsGA1UdEAQkMCKADzIwMTcxMDExMTQy
+ODAyWoEPMjAyMzEwMTExNDU4MDJaMB8GA1UdIwQYMBaAFPcvTOB152KjeJZbBrYucTvMbD+QMB0G
+A1UdDgQWBBTvHABrq1c+VO34jDYknU9VO107jTAJBgNVHRMEAjAAMBkGCSqGSIb2fQdBAAQMMAob
+BFY4LjEDAgOoMA0GCSqGSIb3DQEBCwUAA4IBAQBn1aaFpv9Y8l9bRmdCZF/uHyMUagGPJJQJjbHV
+tKyYzxaev2LpeMhNXfW1mTaqZea4MKDyBxVM0GZWbTVugwzEpo1Hj9Tyoh5C+WDWziRQrx/wSOoK
+7N6RXw4TKA1dKWqJzqAoK+1PXeKkj5XLo81nv7DfVmeY5ZMmQ7wxtYUHvW/muULKU6jRDGE7Spa0
+JiVP0HAA3qdLTZZscNMhz1hFN7epYPSKcuQJTvy1fo/+6uBIPUDySkQb6ubkeDcpuV0t0T2egtla
+BnxVhiuTvDF4N0oNqqxKo1+xeTv9IwadeS/uGZZudMJ8BQwvE9ZCBKyNpRGjhhiii/mfNkbcVIQO
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qaMS59YIPnVhwemhEQ5XZbj09MhSyDrN4wnsMNsi1HGD9FALA1rY5oaMMswxcbnAbVBop1pvTOCt
+zJoZW3/iU7km9uUyQCqEGaIUVEFFhgXi/bwWIgwpdNnIbtp5lo9ZCyCQrFcmv1CyDZYYJZD+jjn9
+3u5OiD8GyOJ0jVh3Hckx3a+qKBpfkBorzmGCS5IAKFF5DaBr5E8yxxfRqgv9yKNpA6STFiAOJX7t
+v4EdqimLMVXPfBz4vAhXdhGZRwE+4J+kwH/N4Hx2KE2Qd/bgIRbdZWefhSwVZvWfwS8Inr/LgvtW
+w5WJA7S8ZQCqbubbuRNgYqb5nW+1lmJwSCfYHw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature210903-Object334037"><etsi:QualifyingProperties Target="#Signature210903"><etsi:SignedProperties Id="Signature210903-SignedProperties730821"><etsi:SignedSignatureProperties><etsi:SigningTime>2018-08-02T17:16:23-04:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Jn5oZJhC5dj+4/8+bkszUaF4gWs=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUB SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1422892547</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-968928"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></guiaRemision>

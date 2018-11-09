@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<comprobanteRetencion id="comprobante" version="1.0.0">
+		<infoTributaria>		
+			<ambiente>2</ambiente>		
+			<tipoEmision>1</tipoEmision>
+			<razonSocial>ALMEIDA RIVAS RENATO FABRICIO</razonSocial>
+						<nombreComercial>SANTO GIUSEPPE ESCULTURE</nombreComercial>
+						<ruc>1708015449001</ruc>
+			<claveAcceso>0210201807170801544900120010010000000020000110616</claveAcceso>
+			<codDoc>07</codDoc>
+			<estab>001</estab>
+			<ptoEmi>001</ptoEmi>
+			<secuencial>000000002</secuencial>
+			<dirMatriz>CALLE AV. 5 DE JUNIO NO. S9-204, PICHINCHA QUITO</dirMatriz>
+		</infoTributaria>
+		
+		<infoCompRetencion>
+			<fechaEmision>02/10/2018</fechaEmision>
+			<dirEstablecimiento>CALLE AV. 5 DE JUNIO NO. S9-204, PICHINCHA QUITO</dirEstablecimiento>
+									<obligadoContabilidad>NO</obligadoContabilidad>
+						<tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+			<razonSocialSujetoRetenido>CONTENCOM GUAYAQUIL S.A.</razonSocialSujetoRetenido>
+			<identificacionSujetoRetenido>0992506717001</identificacionSujetoRetenido>
+			<periodoFiscal>09/2018</periodoFiscal>
+		</infoCompRetencion>
+		
+		<impuestos>
+			
+							<impuesto>				
+					<codigo>1</codigo>
+					<codigoRetencion>312</codigoRetencion>
+					<baseImponible>13.36</baseImponible>
+					<porcentajeRetener>2.00</porcentajeRetener>
+					<valorRetenido>0.27</valorRetenido>
+					<codDocSustento>01</codDocSustento>
+					<numDocSustento>001009000355061</numDocSustento>
+					<fechaEmisionDocSustento>02/10/2018</fechaEmisionDocSustento>
+				</impuesto>
+						
+		</impuestos>
+				
+	</comprobanteRetencion>

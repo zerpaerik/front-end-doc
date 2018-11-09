@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><comprobanteRetencion id="comprobante" version="1.0.0">
+		<infoTributaria>		
+			<ambiente>2</ambiente>		
+			<tipoEmision>1</tipoEmision>
+			<razonSocial>RODRIGUEZ JARAMILLO MAYTE VORANKA</razonSocial>
+						<nombreComercial>LA CASA DE LOS ANGELES</nombreComercial>
+						<ruc>1712759529001</ruc>
+			<claveAcceso>2610201807171275952900120010010000001610005052518</claveAcceso>
+			<codDoc>07</codDoc>
+			<estab>001</estab>
+			<ptoEmi>001</ptoEmi>
+			<secuencial>000000161</secuencial>
+			<dirMatriz>CALLE GALTE  S9-42, PICHINCHA QUITO</dirMatriz>
+		</infoTributaria>
+		
+		<infoCompRetencion>
+			<fechaEmision>26/10/2018</fechaEmision>
+			<dirEstablecimiento>CALLE GALTE NO. S9-42, PICHINCHA QUITO</dirEstablecimiento>
+									<obligadoContabilidad>NO</obligadoContabilidad>
+						<tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+			<razonSocialSujetoRetenido>FIBRAS Y COMPUESTOS POSTANFI S.A.</razonSocialSujetoRetenido>
+			<identificacionSujetoRetenido>0992735023001</identificacionSujetoRetenido>
+			<periodoFiscal>08/2018</periodoFiscal>
+		</infoCompRetencion>
+		
+		<impuestos>
+			
+							<impuesto>				
+					<codigo>1</codigo>
+					<codigoRetencion>312</codigoRetencion>
+					<baseImponible>1526.00</baseImponible>
+					<porcentajeRetener>1.00</porcentajeRetener>
+					<valorRetenido>15.26</valorRetenido>
+					<codDocSustento>01</codDocSustento>
+					<numDocSustento>003003000000376</numDocSustento>
+					<fechaEmisionDocSustento>22/10/2018</fechaEmisionDocSustento>
+				</impuesto>
+						
+		</impuestos>
+				
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature133270">
+<ds:SignedInfo Id="Signature-SignedInfo923106">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID279999" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature133270-SignedProperties509802">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>WFraqsQDD/HcGkpSq06TbUMvghA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate12830">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>bqKEccu2TdQcy0IZOctHdk9gZpU=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-34277" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>qvxTudFsI0g9422M2/RHR2pEH/I=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue858799">
+W69xdlNWEVt6+NKDf8oZ3FCDiLPdnYcy3fS22oNwnZbwxvxVYEZbuKMlk0qJossmpjjxM6LTFDAi
+W8SJOdcP9Ogtd1du5gWkEjmMuvj35NXRfK3S136pLIDM+LTXDY7CLNG/NlYHQNfVA8F07K5B4iMC
+mftfqH8vncumd6tRw9k2oUSChkD88zHFOz6z7wc/Ye3w3yl1LbY1FYo952hHeOIBV6jQsC6kgRbB
+a/wQQPzyKwHuINV9nCMl0zscpPbwcpS8D8woz2dC7CazsSQpjtxtbBl9hPlJmOXVkmKLy7zpxE0n
+j0KR6xAXTw5E5TW2dbMJHA87JGmAreZHop0XOg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate12830">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJzDCCB7SgAwIBAgIEWlvTTTANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE4MDUxNTIwMjQ0OFoXDTIwMDUxNTIwNTQ0
+OFowgbkxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE9MBEGA1UEBRMKMDAwMDExNTE4NjAoBgNVBAMTIU1BWVRFIFZPUkFOS0Eg
+Uk9EUklHVUVaIEpBUkFNSUxMTzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALBZM0Gh
+MH3qNPCqjEordRN97aPpoxRjCcVoaBY1bksQEVizSAot8ynrEfNgnUQ4jSc+hsZ2ZYLIlIMdqyX7
+SLKLsXNdm4vpHaFstTKzFGh5m0aw/cqMx33B+nM14rT6J50cVOhS4W3xHcOXpgEeLJKhPO1cwAEb
+GLsTd7FjeTHEKK871lwNRvKqp96ys5a9sykxdsdhD5njRogoOdjikoHsRIwTcvvqczVVJNGqMWMX
+SUbcp9/sEXZqvZCI07aepjcfgxAGok5TPvRAuXPCki2GUoRS86+7PY4YBAZrGAqlFAtiq/zkv7Xq
+Xc9dTOBGthdcPXKrgDFcPPDP1n2Dm20CAwEAAaOCBPAwggTsMAsGA1UdDwQEAwIHgDBmBgNVHSAE
+XzBdMFsGCysGAQQBgqg7AgEBMEwwSgYIKwYBBQUHAgEWPmh0dHA6Ly93d3cuZWNpLmJjZS5lYy9w
+b2xpdGljYS1jZXJ0aWZpY2Fkby9wZXJzb25hLW5hdHVyYWwucGRmMIGRBggrBgEFBQcBAQSBhDCB
+gTA+BggrBgEFBQcwAYYyaHR0cDovL29jc3AuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3Rh
+dHVzL29jc3AwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwMS5lY2kuYmNlLmVjL2VqYmNhL3B1Ymxp
+Y3dlYi9zdGF0dXMvb2NzcDAaBgorBgEEAYKoOwMBBAwTCjE3MTI3NTk1MjkwHQYKKwYBBAGCqDsD
+AgQPEw1NQVlURSBWT1JBTktBMBkGCisGAQQBgqg7AwMECxMJUk9EUklHVUVaMBkGCisGAQQBgqg7
+AwQECxMJSkFSQU1JTExPMC4GCisGAQQBgqg7AwcEIBMeR0FMVEUgUzk0NiBZIFJPRFJJR08gREUg
+Q0hBVkVaMBkGCisGAQQBgqg7AwgECxMJMDIyNjU5MTgwMBUGCisGAQQBgqg7AwkEBxMFUXVpdG8w
+FwYKKwYBBAGCqDsDDAQJEwdFQ1VBRE9SMB0GCisGAQQBgqg7AwsEDxMNMTcxMjc1OTUyOTAwMTAd
+BgorBgEEAYKoOwMyBA8TDUFSVEVTQU5PMzE5NDYwIAYKKwYBBAGCqDsDMwQSExBTT0ZUV0FSRS1B
+UkNISVZPMB8GA1UdEQQYMBaBFHNoYW55cm9kQGhvdG1haWwuY29tMIIB3wYDVR0fBIIB1jCCAdIw
+ggHOoIIByqCCAcaGgdVsZGFwOi8vYmNlcWxkYXBzdWJwMS5iY2UuZWMvY249Q1JMNTYxLGNuPUFD
+JTIwQkFOQ08lMjBDRU5UUkFMJTIwREVMJTIwRUNVQURPUixsPVFVSVRPLG91PUVOVElEQUQlMjBE
+RSUyMENFUlRJRklDQUNJT04lMjBERSUyMElORk9STUFDSU9OLUVDSUJDRSxvPUJBTkNPJTIwQ0VO
+VFJBTCUyMERFTCUyMEVDVUFET1IsYz1FQz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2WG
+NGh0dHA6Ly93d3cuZWNpLmJjZS5lYy9DUkwvZWNpX2JjZV9lY19jcmxmaWxlY29tYi5jcmykgbUw
+gbIxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcwNQYD
+VQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4wDAYD
+VQQHEwVRVUlUTzElMCMGA1UEAxMcQUMgQkFOQ08gQ0VOVFJBTCBERUwgRUNVQURPUjEPMA0GA1UE
+AxMGQ1JMNTYxMCsGA1UdEAQkMCKADzIwMTgwNTE1MjAyNDQ4WoEPMjAyMDA1MTUyMDU0NDhaMB8G
+A1UdIwQYMBaAFBj58PvmMhyZZjkqyouyaX1JJ7/OMB0GA1UdDgQWBBQjNKmMxmhzdx3E2jP4TVk3
+nsU8rDAJBgNVHRMEAjAAMBkGCSqGSIb2fQdBAAQMMAobBFY4LjEDAgSwMA0GCSqGSIb3DQEBCwUA
+A4ICAQBIuB9OrTz5f6epUtR87Vdk18BPX0ZoOSuFF6sqFwfmvj2ge0XRQqgMuTbsCqocQWen6CAP
+ZRJS4XPMjB2apALELUvc8clh7WQ4DOXnjehBPztNFGQf6AufxxbqRcLVQ7hDe44DV5BzpW/lVWTn
+knh9uZgKqXKSYBDvhIFwyWK9LvrN1zekHSYhqulEmMclBYSouZZtBiGhqYiUTj2/EnWNCHOFc605
+cv7psflvMSy+H9pXZOAK4l5VkY95k/Pqp9t7L2J6iltEQlB3ALqE/AZ2Kfi6T7+smITcN9X3HR0c
+TbwBYno0vmpKjqiV9ZT8Wn1/LAA8PAVTKjEHqOqxHxRAIxqeMCB0Qf835Js8CnicRL0ISQI1n+P9
+OzDXR+RpM1We//5GovnZregJUSTUd+HucGqhj4BWn6gMzFe9bqO+NfGa5lTxO2E3pgIL3IjxNbdY
+QIusJVGesCXJ86/Y7nz1IBCiXmQmiMlM3TPrjaUS+JwoXz52A8zlxxrNyOjPMCyI7tSY0vYWT8Qd
+cbQg5/8SQbaI3cYk5HFi08oeBmKoPndY2fEVsK+ynb40kiLqlOdiUY6RN+pTT7OnRu4t9qiaz93/
+t8a1rTeNipMZb8q1VG+td9XksuKat3xaSkwR+51j3rgYpDGOneTa4mGZzPutr0z72GQpV5plFfbp
+vrZ4Tg==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sFkzQaEwfeo08KqMSit1E33to+mjFGMJxWhoFjVuSxARWLNICi3zKesR82CdRDiNJz6GxnZlgsiU
+gx2rJftIsouxc12bi+kdoWy1MrMUaHmbRrD9yozHfcH6czXitPonnRxU6FLhbfEdw5emAR4skqE8
+7VzAARsYuxN3sWN5McQorzvWXA1G8qqn3rKzlr2zKTF2x2EPmeNGiCg52OKSgexEjBNy++pzNVUk
+0aoxYxdJRtyn3+wRdmq9kIjTtp6mNx+DEAaiTlM+9EC5c8KSLYZShFLzr7s9jhgEBmsYCqUUC2Kr
+/OS/tepdz11M4Ea2F1w9cquAMVw88M/WfYObbQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature133270-Object743459"><etsi:QualifyingProperties Target="#Signature133270"><etsi:SignedProperties Id="Signature133270-SignedProperties509802"><etsi:SignedSignatureProperties><etsi:SigningTime>2018-10-26T10:25:07-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>GrCr7/++vt4SFNbGQGi2MZysnDg=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1515967309</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-34277"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature><ns2:respuestaSolicitud xmlns:ns2="http://ec.gob.sri.ws.recepcion">
+    <estado>DEVUELTA</estado>
+    <comprobantes>
+        <comprobante>
+            <claveAcceso>2610201807171275952900120010010000001610005052518</claveAcceso>
+            <mensajes>
+                <mensaje>
+                    <identificador>45</identificador>
+                    <mensaje>ERROR SECUENCIAL REGISTRADO</mensaje>
+                    <tipo>ERROR</tipo>
+                </mensaje>
+            </mensajes>
+        </comprobante>
+    </comprobantes>
+</ns2:respuestaSolicitud></comprobanteRetencion>

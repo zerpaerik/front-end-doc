@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>		
+		<ambiente>6</ambiente>		
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>LEONARDO EFRAIN ARMIJOS CUENCA</razonSocial>
+		<nombreComercial>QUANTUM</nombreComercial>
+		<ruc>1103187710001</ruc>
+		<claveAcceso>2910201801110318771000160010010000000860001358813</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000086</secuencial>
+		<dirMatriz>AIME BONDPLAND n17-169 Y QUESERAS DEL MEDIO</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>29/10/2018</fechaEmision>
+		<dirEstablecimiento>AIME BONDPLAND n17-169 Y QUESERAS DEL MEDIO</dirEstablecimiento>
+				<obligadoContabilidad>NO</obligadoContabilidad>
+	
+	
+		<tipoIdentificacionComprador>04</tipoIdentificacionComprador>	
+		<razonSocialComprador>CARLOS ALFREDO ZAMBRANO VARGAS</razonSocialComprador>
+		<identificacionComprador>0804724672001</identificacionComprador>
+		<direccionComprador>AV. LA PRENS AY VACA DE CASTRO OF. 101</direccionComprador>		
+		<totalSinImpuestos>1</totalSinImpuestos>
+
+		
+
+		<totalDescuento>0</totalDescuento>		
+		<totalConImpuestos>
+						
+			<totalImpuesto>				
+				<codigo>2</codigo>
+				<codigoPorcentaje>288</codigoPorcentaje>				
+				<baseImponible>1.00</baseImponible>
+				<valor>0.12</valor>
+			</totalImpuesto>
+						
+		</totalConImpuestos>		
+		<propina>0</propina>
+
+		
+		<importeTotal>1.12</importeTotal>
+		<moneda>DOLAR</moneda>
+				<pagos>
+						<pago>
+				<formaPago>01</formaPago>
+				<total>1.12</total>
+											</pago>
+					</pagos>
+			</infoFactura>
+	<detalles>
+				<detalle>
+			<codigoPrincipal>Q001</codigoPrincipal>
+						<codigoAuxiliar>C001</codigoAuxiliar>
+						<descripcion>Correos</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>1.000000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>1</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>288</codigoPorcentaje>
+					<tarifa>12.00</tarifa>
+					<baseImponible>1</baseImponible>
+					<valor>0.12</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+			</detalles>
+</factura>

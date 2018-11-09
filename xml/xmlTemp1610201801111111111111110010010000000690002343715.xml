@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>		
+		<ambiente>1</ambiente>		
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>Adminquantum</razonSocial>
+		<nombreComercial>Quantumadmin</nombreComercial>
+		<ruc>1111111111111</ruc>
+		<claveAcceso>1610201801111111111111110010010000000690002343715</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000069</secuencial>
+		<dirMatriz>ecuador</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>16/10/2018</fechaEmision>
+		<dirEstablecimiento>Aime Bondpland y Queseras del medio</dirEstablecimiento>
+				<obligadoContabilidad>NO</obligadoContabilidad>
+	
+	
+		<tipoIdentificacionComprador>05</tipoIdentificacionComprador>	
+		<razonSocialComprador>EDGARLY LUCENA</razonSocialComprador>
+		<identificacionComprador>0152730876</identificacionComprador>
+		<direccionComprador>Venezuela</direccionComprador>		
+		<totalSinImpuestos>300</totalSinImpuestos>
+
+		
+
+		<totalDescuento>0</totalDescuento>		
+		<totalConImpuestos>
+						
+			<totalImpuesto>				
+				<codigo>2</codigo>
+				<codigoPorcentaje>2</codigoPorcentaje>				
+				<baseImponible>300.00</baseImponible>
+				<valor>36.00</valor>
+			</totalImpuesto>
+						
+		</totalConImpuestos>		
+		<propina>0</propina>
+
+		
+		<importeTotal>336.00</importeTotal>
+		<moneda>DOLAR</moneda>
+				<pagos>
+						<pago>
+				<formaPago>19</formaPago>
+				<total>336.00</total>
+											</pago>
+					</pagos>
+			</infoFactura>
+	<detalles>
+				<detalle>
+			<codigoPrincipal>0002003</codigoPrincipal>
+						<descripcion>Camisa</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>300.000000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>300</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>2</codigoPorcentaje>
+					<tarifa>12.00</tarifa>
+					<baseImponible>300</baseImponible>
+					<valor>36</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+			</detalles>
+</factura>

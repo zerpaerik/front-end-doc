@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>		
+		<ambiente>2</ambiente>		
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>JARAMILLO CRUZ MARIA ESTHER</razonSocial>
+		<nombreComercial>TALLERES SANTA MARIA</nombreComercial>
+		<ruc>1704034212001</ruc>
+		<claveAcceso>1010201801170403421200120010010000005390004420711</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000539</secuencial>
+		<dirMatriz>CALLE GALTE NO. S9-46, PICHINCHA QUITO</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>10/10/2018</fechaEmision>
+		<dirEstablecimiento>CALLE GALTE NO. S9-46, PICHINCHA QUITO</dirEstablecimiento>
+				<obligadoContabilidad>NO</obligadoContabilidad>
+	
+	
+		<tipoIdentificacionComprador>04</tipoIdentificacionComprador>	
+		<razonSocialComprador>UNIDAD EDUCATIVA PARTICULAR SAGRADOS CORAZONES DE RUMIPAMBA</razonSocialComprador>
+		<identificacionComprador>1790102327001</identificacionComprador>
+		<direccionComprador>RUMIPAMBA, AV. ATAHUALPA OE1-20 Y AV. 10 DE AGOSTO</direccionComprador>		
+		<totalSinImpuestos>740</totalSinImpuestos>
+
+		
+
+		<totalDescuento>0</totalDescuento>		
+		<totalConImpuestos>
+						
+			<totalImpuesto>				
+				<codigo>2</codigo>
+				<codigoPorcentaje>0</codigoPorcentaje>				
+				<baseImponible>740.00</baseImponible>
+				<valor>0.00</valor>
+			</totalImpuesto>
+						
+		</totalConImpuestos>		
+		<propina>0</propina>
+
+		
+		<importeTotal>740.00</importeTotal>
+		<moneda>DOLAR</moneda>
+				<pagos>
+						<pago>
+				<formaPago>01</formaPago>
+				<total>740.00</total>
+											</pago>
+					</pagos>
+			</infoFactura>
+	<detalles>
+				<detalle>
+			<codigoPrincipal>S0001</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>RESTAURACION DE IMAGENES DE PESEBRE (8PIEZAS)</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>740.000000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>740</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>0</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>740</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+			</detalles>
+</factura>

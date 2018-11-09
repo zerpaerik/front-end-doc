@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<comprobanteRetencion id="comprobante" version="1.0.0">
+		<infoTributaria>		
+			<ambiente>2</ambiente>		
+			<tipoEmision>1</tipoEmision>
+			<razonSocial>ROSANA GUADALUPE RODRIGUEZ JARAMILLO</razonSocial>
+						<nombreComercial>SAGRADO CORAZON</nombreComercial>
+						<ruc>1712759826001</ruc>
+			<claveAcceso>0310201807171275982600120020010000000230005869217</claveAcceso>
+			<codDoc>07</codDoc>
+			<estab>002</estab>
+			<ptoEmi>001</ptoEmi>
+			<secuencial>000000023</secuencial>
+			<dirMatriz>EPLICACHIMA S9-204 Y JAMBELI</dirMatriz>
+		</infoTributaria>
+		
+		<infoCompRetencion>
+			<fechaEmision>03/10/2018</fechaEmision>
+			<dirEstablecimiento>VILLA FLORA</dirEstablecimiento>
+									<obligadoContabilidad>NO</obligadoContabilidad>
+						<tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+			<razonSocialSujetoRetenido>CEGASUPPLY S.A.</razonSocialSujetoRetenido>
+			<identificacionSujetoRetenido>0992880120001</identificacionSujetoRetenido>
+			<periodoFiscal>08/2018</periodoFiscal>
+		</infoCompRetencion>
+		
+		<impuestos>
+			
+							<impuesto>				
+					<codigo>1</codigo>
+					<codigoRetencion>312</codigoRetencion>
+					<baseImponible>1080.00</baseImponible>
+					<porcentajeRetener>1.00</porcentajeRetener>
+					<valorRetenido>10.80</valorRetenido>
+					<codDocSustento>01</codDocSustento>
+					<numDocSustento>001101000001592</numDocSustento>
+					<fechaEmisionDocSustento>03/10/2018</fechaEmisionDocSustento>
+				</impuesto>
+							<impuesto>				
+					<codigo>2</codigo>
+					<codigoRetencion>3</codigoRetencion>
+					<baseImponible>129.60</baseImponible>
+					<porcentajeRetener>100.00</porcentajeRetener>
+					<valorRetenido>129.60</valorRetenido>
+					<codDocSustento>01</codDocSustento>
+					<numDocSustento>001101000001592</numDocSustento>
+					<fechaEmisionDocSustento>03/10/2018</fechaEmisionDocSustento>
+				</impuesto>
+						
+		</impuestos>
+				
+	</comprobanteRetencion>

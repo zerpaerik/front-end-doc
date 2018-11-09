@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura id="comprobante" version="1.1.0">
+	<infoTributaria>		
+		<ambiente>2</ambiente>		
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>RODRIGUEZ JARAMILLO CARLA VIVIANA</razonSocial>
+		<nombreComercial>TALLER SANTARITA</nombreComercial>
+		<ruc>1712759834001</ruc>
+		<claveAcceso>3110201801171275983400160010010000000670000182911</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>001</estab>
+		<ptoEmi>001</ptoEmi>
+		<secuencial>000000067</secuencial>
+		<dirMatriz>PICHICHA/QUTO/LA MAGDALENA/AV. 5 DE JUNIO S9-65 Y RODRIGO DE CHAVEZ</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>31/10/2018</fechaEmision>
+		<dirEstablecimiento>CALLE AV. 5 DE JUNIO NO. S9-65, PICHINCHA QUITO</dirEstablecimiento>
+				<obligadoContabilidad>NO</obligadoContabilidad>
+	
+			<comercioExterior>EXPORTADOR</comercioExterior>
+		<incoTermFactura>FOB</incoTermFactura>
+		<lugarIncoTerm>Ecuador</lugarIncoTerm>
+		<paisOrigen>593</paisOrigen>
+		<puertoEmbarque>Quito</puertoEmbarque>
+		<puertoDestino>Florida</puertoDestino>
+		<paisDestino>110</paisDestino>
+		<paisAdquisicion>593</paisAdquisicion>
+	
+		<tipoIdentificacionComprador>06</tipoIdentificacionComprador>	
+		<razonSocialComprador>FULL OF GRACE</razonSocialComprador>
+		<identificacionComprador>475500681</identificacionComprador>
+		<direccionComprador>122 S. 1ST STREET, AMITE, LA 70422 USA</direccionComprador>		
+		<totalSinImpuestos>1</totalSinImpuestos>
+
+			<incoTermTotalSinImpuestos>FOB</incoTermTotalSinImpuestos>
+		
+
+		<totalDescuento>0</totalDescuento>		
+		<totalConImpuestos>
+						
+			<totalImpuesto>				
+				<codigo>2</codigo>
+				<codigoPorcentaje>77</codigoPorcentaje>				
+				<baseImponible>1.00</baseImponible>
+				<valor>0.00</valor>
+			</totalImpuesto>
+						
+		</totalConImpuestos>		
+		<propina>0</propina>
+
+					<fleteInternacional>0.0000</fleteInternacional>
+			<seguroInternacional>0.0000</seguroInternacional>
+			<gastosAduaneros>0.0000</gastosAduaneros>
+			<gastosTransporteOtros>0.0000</gastosTransporteOtros>
+		
+		<importeTotal>1.00</importeTotal>
+		<moneda>DOLAR</moneda>
+				<pagos>
+						<pago>
+				<formaPago>01</formaPago>
+				<total>1.00</total>
+											</pago>
+					</pagos>
+			</infoFactura>
+	<detalles>
+				<detalle>
+			<codigoPrincipal>00100</codigoPrincipal>
+						<codigoAuxiliar>7019.19.0000</codigoAuxiliar>
+						<descripcion>VIRGEN ROSA MISTICA 68CM</descripcion>
+			<cantidad>1.000000</cantidad>
+			<precioUnitario>1.000000</precioUnitario>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>1</precioTotalSinImpuesto>			
+			<impuestos>
+								<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>77</codigoPorcentaje>
+					<tarifa>0.00</tarifa>
+					<baseImponible>1</baseImponible>
+					<valor>0</valor>
+				</impuesto>
+							</impuestos>
+		</detalle>
+			</detalles>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature555935">
+<ds:SignedInfo Id="Signature-SignedInfo41447">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID1019403" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature555935-SignedProperties691336">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>1Krfs2RXTCILb6uqAXoRWS0fkec=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1448216">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>jPsf4+uPytksHfU+iAv+T242y4o=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-759576" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>sGsbrr49nCXmHwAfy5x0MahCyk8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue589335">
+Qh31J9jq5aosMJ2Onp0pJjCL8hEnytbFAQM0q9QBiIDlr/TXEiIu13T+eC+r84Si/HxXvoorQxCz
+8vNs32f31OZ06fd9XYt3wSvr8Rd28kBn4OZ8ErIkYuTZy89heGFc1FjN+zgD/9RTLpTr/Ncy4V0V
+Gnjhrd7aV96iwO2ElGzGH9UCTPejXb7AGbRr5rj3qaGHZtHwmXHbh6oyehmqaFo43pbPxmNNScy/
+6I/iEmnh+3ZTSkcvZJESe+xFOMNwinCNulbjcQL5zPRChqrvixhvwETez5KUoMAe2LkHuJSy2P7V
+2f+Lbyho+Fyh/PlKklpvjZGbU7FQnXrlhq1/fA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1448216">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJrDCCB5SgAwIBAgIEWlvS3DANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE4MDUxNTE3NDAyM1oXDTIwMDUxNTE4MTAy
+M1owgbkxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE9MBEGA1UEBRMKMDAwMDExNTIwMzAoBgNVBAMTIUNBUkxBIFZJVklBTkEg
+Uk9EUklHVUVaIEpBUkFNSUxMTzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALMqWDOy
+5wB87MCKuUs984o9zCtGn+SEjBaChcCad17JENIiegqU74sfIZV5Q5N8Vn4C4FMU20sG7b3e2jWq
+zRC5RkjqDjkRe/KEYlk8hzka8xyxyhTF0Kn2PvobEKlMHOjEzMdYVcudQklDLXAgF5Fe1l4fZTg2
+zjuekfE5uDckj5Nj5Tkm1UnZgWITQoVJ8y5WvnFcLgDPwzOtPKcdOF4UXELR9qJ7D36E8HHEJw8J
+45KkNK7ru1dn7Jg/DJNm5qZO7H7C+QrQcb0pBJqq3F3Zuq20SNdeB5btmhLIkW1sKaH1AwM3s8RK
+2pgeV/pPO89cBNnVvYmF3ud5qfiRXr0CAwEAAaOCBNAwggTMMAsGA1UdDwQEAwIHgDBmBgNVHSAE
+XzBdMFsGCysGAQQBgqg7AgEBMEwwSgYIKwYBBQUHAgEWPmh0dHA6Ly93d3cuZWNpLmJjZS5lYy9w
+b2xpdGljYS1jZXJ0aWZpY2Fkby9wZXJzb25hLW5hdHVyYWwucGRmMIGRBggrBgEFBQcBAQSBhDCB
+gTA+BggrBgEFBQcwAYYyaHR0cDovL29jc3AuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3Rh
+dHVzL29jc3AwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwMS5lY2kuYmNlLmVjL2VqYmNhL3B1Ymxp
+Y3dlYi9zdGF0dXMvb2NzcDAaBgorBgEEAYKoOwMBBAwTCjE3MTI3NTk4MzQwHQYKKwYBBAGCqDsD
+AgQPEw1DQVJMQSBWSVZJQU5BMBkGCisGAQQBgqg7AwMECxMJUk9EUklHVUVaMBkGCisGAQQBgqg7
+AwQECxMJSkFSQU1JTExPMC0GCisGAQQBgqg7AwcEHxMdR0FMVEUgMjg5IFkgUk9EUklHTyBERSBD
+SEFWRVowGQYKKwYBBAGCqDsDCAQLEwkwMjI2MTA4NDIwFQYKKwYBBAGCqDsDCQQHEwVRdWl0bzAX
+BgorBgEEAYKoOwMMBAkTB0VDVUFET1IwHQYKKwYBBAGCqDsDCwQPEw0xNzEyNzU5ODM0MDAxMCAG
+CisGAQQBgqg7AzMEEhMQU09GVFdBUkUtQVJDSElWTzAfBgNVHREEGDAWgRRzaGFueXJvZEBob3Rt
+YWlsLmNvbTCCAd8GA1UdHwSCAdYwggHSMIIBzqCCAcqgggHGhoHVbGRhcDovL2JjZXFsZGFwc3Vi
+cDEuYmNlLmVjL2NuPUNSTDU2MCxjbj1BQyUyMEJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFE
+T1IsbD1RVUlUTyxvdT1FTlRJREFEJTIwREUlMjBDRVJUSUZJQ0FDSU9OJTIwREUlMjBJTkZPUk1B
+Q0lPTi1FQ0lCQ0Usbz1CQU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VBRE9SLGM9RUM/Y2VydGlm
+aWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlhjRodHRwOi8vd3d3LmVjaS5iY2UuZWMvQ1JML2VjaV9i
+Y2VfZWNfY3JsZmlsZWNvbWIuY3JspIG1MIGyMQswCQYDVQQGEwJFQzEiMCAGA1UEChMZQkFOQ08g
+Q0VOVFJBTCBERUwgRUNVQURPUjE3MDUGA1UECxMuRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERF
+IElORk9STUFDSU9OLUVDSUJDRTEOMAwGA1UEBxMFUVVJVE8xJTAjBgNVBAMTHEFDIEJBTkNPIENF
+TlRSQUwgREVMIEVDVUFET1IxDzANBgNVBAMTBkNSTDU2MDArBgNVHRAEJDAigA8yMDE4MDUxNTE3
+NDAyM1qBDzIwMjAwNTE1MTgxMDIzWjAfBgNVHSMEGDAWgBQY+fD75jIcmWY5KsqLsml9SSe/zjAd
+BgNVHQ4EFgQUyWPmblNW+bdjrF//MKrJ7mWIVJkwCQYDVR0TBAIwADAZBgkqhkiG9n0HQQAEDDAK
+GwRWOC4xAwIEsDANBgkqhkiG9w0BAQsFAAOCAgEAgJjbmEK3MqO51Bx7qK8XUfApIGM+0M2N3/C0
+3MCk7dF/gKaBWF6szKheXsa+9RlLADBKcou+/JOX7pDjn+zTTFM718iW44Orh8snmduw5qrJg6Ll
+u3pCfVL1twZX8GP3LEd2uCnPtdmtoXGHlLNXdbocDjQvll0HCe1Y02pNS2QGKAEGwBr43QBWFIJ+
+Dp4TE2ymQ1LvrdLSdZHPaJTSB98JJFPp3U8WzBIKYJZXAbNgamS+1gTsHyFeHWYezZUFkz1FzscS
+2i28QybkVEblD2guN4bCgceV236xJkkFZHduDyljtqunKWP34ms0BGX8nKtyikRlThWtGIq864Dm
+eSQo/wwUOFxEfS/UFs9gOefE0JiKwfUlrTXiV1CQwVRQksikf4euvCuJfd+vKE2mBk3KkMOTGJf0
+AXdPnef3AbH4+8lB6dkjWSNruHJk1nasCV6ocmiLDL/pdtQDcfC3qLx6ElEwuxHcYxRUkw0pkxOU
+pbry505xSbid0qloqPcz8pCZqfAzp9D8lapBv0O2AdW4jLr/3RA74HYIvJcgpRGWGSPx6A8J9bma
+JAkGtQkMh5dG5PRLS1bsTv/wKy64iltKyd66QUKFxIdM1YsrS5Ch5pcmK1DgvHswxwtoD+ua4ifl
+0kIY7FhVUJyjehoMx+H6R2B4weAcn0hhL/SzyhY=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sypYM7LnAHzswIq5Sz3zij3MK0af5ISMFoKFwJp3XskQ0iJ6CpTvix8hlXlDk3xWfgLgUxTbSwbt
+vd7aNarNELlGSOoOORF78oRiWTyHORrzHLHKFMXQqfY++hsQqUwc6MTMx1hVy51CSUMtcCAXkV7W
+Xh9lODbOO56R8Tm4NySPk2PlOSbVSdmBYhNChUnzLla+cVwuAM/DM608px04XhRcQtH2onsPfoTw
+ccQnDwnjkqQ0ruu7V2fsmD8Mk2bmpk7sfsL5CtBxvSkEmqrcXdm6rbRI114Hlu2aEsiRbWwpofUD
+AzezxEramB5X+k87z1wE2dW9iYXe53mp+JFevQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature555935-Object507561"><etsi:QualifyingProperties Target="#Signature555935"><etsi:SignedProperties Id="Signature555935-SignedProperties691336"><etsi:SignedSignatureProperties><etsi:SigningTime>2018-10-31T14:44:40-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>m+EZq1WbB3aGh4jupCLKY7NX4tQ=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1515967196</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-759576"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>
